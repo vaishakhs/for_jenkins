@@ -3,22 +3,22 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "I am in build stage" 
+                echo "I am in 1111 stage" 
             }
         }
         stage('Test') { 
             steps {
-                echo "I am in Test stage" 
+                echo "I am in 2222 stage" 
             }
         }
         stage('Deploy') { 
             steps {
-                echo "I am deploy stage"
+                echo "I am 3333 stage"
             }
         }
         stage('Archive') { 
             steps {
-                echo "I am Archive stage"
+                echo "I am 4444 stage"
             }
         }
     }
